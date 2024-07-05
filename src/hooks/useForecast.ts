@@ -1,7 +1,7 @@
 import { useState, useEffect, ChangeEvent } from 'react';
 import { optionType, forecastType } from './../types/index';
 
-const BASE_URL = 'http://api.openweathermap.org';
+const BASE_URL = 'https://api.openweathermap.org';
 
 const predefinedCities: optionType[] = [
   { name: 'Delhi', country: 'India', lat: 28.6139, lon: 77.209 },
