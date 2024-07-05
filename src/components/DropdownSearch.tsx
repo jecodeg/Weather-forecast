@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from 'react';
 import Header from './Header';
-import { optionType } from './../types/index';
+import { optionType } from '../types/index';
 
 type Props = {
   term: string;
@@ -10,7 +10,7 @@ type Props = {
   onSubmit: () => void;
 };
 
-const Search = ({ term, options, onInputChange, onOptionSelect, onSubmit }: Props) => {
+const DropdownSearch = ({ term, options, onInputChange, onOptionSelect, onSubmit }: Props) => {
   const [showSuggestions, setShowSuggestions] = useState(false);
 
   const handleInputFocus = () => {
@@ -60,4 +60,4 @@ const Search = ({ term, options, onInputChange, onOptionSelect, onSubmit }: Prop
   );
 };
 
-export default Search;
+export default DropdownSearch;
