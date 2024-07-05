@@ -6,7 +6,6 @@ import {
   getHumidityValue,
   getWindDirection,
   getVisibilityValue,
-  getSunTime,
   getPop,
 } from './../helpers'
 
